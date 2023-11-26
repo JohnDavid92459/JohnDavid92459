@@ -1,0 +1,40 @@
+badge number 97459 reporting for work   
+neutralized terrorist attacks July 2nd through 4th
+name: CID
+neutralize attacks with Spain Maryland and Oregon through July 5th through the 12th
+on: neutralize all terrorist attacks by June 14th 15th 16th and 18th 
+destroy main Marilyn Massachusetts and Oregon all on the same night or trying to attack their own Nation
+wipe out all enemy terrorist between July 18th through 25th all of planning an attack on July 29th of all unknown foreign countries domestic and current slaughtering all citizens that aren't true Austin sweeters
+neutralize all terroristed weaponry by disarming on all unknown Austin sweaters a pocket pistols assault rifles and heavy artillery being used in the isis attacks
+kill off massive isis on July 13th through 25th with Joe Biden Donald Trump and George Benjamin 
+kill off all traders that just try to sexual assault Joe Biden Donald Trump and George Benjamin out of doing the right thing and helping me neutralize these terrorist situations
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
